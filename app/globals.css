@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@layer theme {
+  :root {
+    --color-primary: #78a530;
+    --color-primary-dark: #5a7d24;
+    --color-gray-dark: #4d4d4d;
+    --color-blue-accent: #1856dd;
+  }
+}
+
+@layer base {
+  body {
+    @apply bg-black text-white;
+  }
+}
+
+@layer utilities {
+  .bg-primary {
+    background-color: var(--color-primary);
+  }
+  .bg-primary-dark {
+    background-color: var(--color-primary-dark);
+  }
+  .bg-gray-dark {
+    background-color: var(--color-gray-dark);
+  }
+  .bg-blue-accent {
+    background-color: var(--color-blue-accent);
+  }
+  .text-primary {
+    color: var(--color-primary);
+  }
+  .border-primary {
+    border-color: var(--color-primary);
+  }
+  .hover\:bg-primary-dark:hover {
+    background-color: var(--color-primary-dark);
+  }
+  .hover\:text-primary:hover {
+    color: var(--color-primary);
+  }
+}
