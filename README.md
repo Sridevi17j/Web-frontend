@@ -62,6 +62,8 @@ npm start
 - Smooth transitions and hover effects
 - Optimized images with Next.js Image component
 - TypeScript for type safety
+- SEO optimized metadata
+- Performance monitoring ready
 
 ## Design
 
