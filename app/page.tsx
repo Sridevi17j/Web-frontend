@@ -8,6 +8,9 @@ import ProjectIntelligenceSection from "@/components/ProjectIntelligenceSection"
 import CapabilitiesSection from "@/components/CapabilitiesSection";
 
 export default function Home() {
+  // TODO: Add analytics tracking for page views
+  console.log("Home page loaded - test change for git demo");
+
   return (
     <main className="min-h-screen">
       <Header />
