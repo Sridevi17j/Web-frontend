@@ -2,6 +2,8 @@
 
 AI Executive Assistant For Project Owners - Landing page built with Next.js, TypeScript, and Tailwind CSS v4.
 
+> **Note**: This is a test repository for demonstration purposes.
+
 ## Tech Stack
 
 - **Framework**: Next.js 15 (App Router)
@@ -60,6 +62,8 @@ npm start
 - Smooth transitions and hover effects
 - Optimized images with Next.js Image component
 - TypeScript for type safety
+- SEO optimized metadata
+- Performance monitoring ready
 
 ## Design
 

@@ -14,10 +14,12 @@ const inter = Inter({
   variable: "--font-inter",
 });
 
+// Metadata configuration for SEO
 export const metadata: Metadata = {
   title: "ProMarshal - AI Executive Assistant For Project Owners",
   description:
     "Helps you plan, guide, and take decisions through every phase of the project",
+  keywords: ["AI", "Project Management", "Executive Assistant"],
 };
 
 export default function RootLayout({
