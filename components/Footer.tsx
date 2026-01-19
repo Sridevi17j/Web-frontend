@@ -1,4 +1,6 @@
 export default function Footer() {
+  console.log("Footer component loaded");
+
   return (
     <footer className="bg-gray-dark rounded-2xl shadow-lg mx-4 my-2">
       <div className="flex items-center px-8 py-6">

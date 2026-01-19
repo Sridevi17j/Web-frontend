@@ -1,4 +1,6 @@
 export default function HeroSection() {
+  console.log("HeroSection rendering");
+
   return (
     <section className="flex flex-col items-center justify-center text-center py-20 px-4">
       <div className="max-w-4xl space-y-6">

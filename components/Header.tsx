@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function Header() {
+  console.log("Debug: Header rendered");
   return (
     <header className="bg-gray-dark rounded-2xl shadow-lg mx-4 my-2">
       <div className="flex items-center justify-between px-8 py-6">
